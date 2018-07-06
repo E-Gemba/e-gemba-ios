@@ -10,4 +10,9 @@
 
 @interface EGBNetworking : NSObject
 
+- (void)post:(NSString *)url parameters:(NSDictionary *)parameters completion:(void (^)(id responseObject, NSError *error))completionHandler;
+- (void)get:(NSString *)url parameters:(NSDictionary *)parameters completion:(void (^)(id responseObject, NSError *error))completionHandler;
+- (void)put:(NSString *)url parameters:(NSDictionary *)parameters completion:(void (^)(id responseObject, NSError *error))completionHandler;
+- (void)delete:(NSString *)url parameters:(NSDictionary *)parameters completion:(void (^)(id responseObject, NSError *error))completionHandler;
+
 @end

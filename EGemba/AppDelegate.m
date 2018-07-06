@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "EGBNetworking.h"
+#import <SVProgressHUD/SVProgressHUD.h>
 
 @interface AppDelegate ()
 

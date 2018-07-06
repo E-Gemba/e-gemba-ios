@@ -6,7 +6,14 @@ target 'EGemba' do
   # use_frameworks!
 
   # Pods for EGemba
-
+  pod 'AFNetworking', '~> 3.0'
+  pod 'PKRevealController'
+  pod 'RETableViewManager'
+  pod 'SVProgressHUD'
+  pod 'Masonry'
+  pod 'EAIntroView'
+  pod 'TPKeyboardAvoiding'
+  
   target 'EGembaTests' do
     inherit! :search_paths
     # Pods for testing

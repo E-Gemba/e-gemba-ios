@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61DB0FBE0F71B417F96858DC /* libPods-EGemba.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8407AC4FA870BA8E96DDD3 /* libPods-EGemba.a */; };
+		C28E71256A81352502ABCA62 /* libPods-EGembaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665D34B6BD5851E6FB51A1FB /* libPods-EGembaTests.a */; };
 		EAB50D2520EF94E60085B133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB50D2420EF94E60085B133 /* AppDelegate.m */; };
 		EAB50D2820EF94E60085B133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB50D2720EF94E60085B133 /* ViewController.m */; };
 		EAB50D2B20EF94E60085B133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB50D2920EF94E60085B133 /* Main.storyboard */; };
@@ -27,6 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F495D3D889E076FD6274970 /* Pods-EGemba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGemba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EGemba/Pods-EGemba.debug.xcconfig"; sourceTree = "<group>"; };
+		2D8407AC4FA870BA8E96DDD3 /* libPods-EGemba.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EGemba.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31939D83DF092A6B48889FEE /* Pods-EGembaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGembaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EGembaTests/Pods-EGembaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C35CE93D740A0642EEFE7A3 /* Pods-EGembaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGembaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EGembaTests/Pods-EGembaTests.release.xcconfig"; sourceTree = "<group>"; };
+		665D34B6BD5851E6FB51A1FB /* libPods-EGembaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EGembaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FB157A5B26FB5E7B49D0FD /* Pods-EGemba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGemba.release.xcconfig"; path = "Pods/Target Support Files/Pods-EGemba/Pods-EGemba.release.xcconfig"; sourceTree = "<group>"; };
 		EAB50D2020EF94E60085B133 /* EGemba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGemba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB50D2320EF94E60085B133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAB50D2420EF94E60085B133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61DB0FBE0F71B417F96858DC /* libPods-EGemba.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +63,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28E71256A81352502ABCA62 /* libPods-EGembaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AED8B79038A3B07D8603FCDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D8407AC4FA870BA8E96DDD3 /* libPods-EGemba.a */,
+				665D34B6BD5851E6FB51A1FB /* libPods-EGembaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E51C8A0F9CCDC903A57C1E48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F495D3D889E076FD6274970 /* Pods-EGemba.debug.xcconfig */,
+				D0FB157A5B26FB5E7B49D0FD /* Pods-EGemba.release.xcconfig */,
+				31939D83DF092A6B48889FEE /* Pods-EGembaTests.debug.xcconfig */,
+				5C35CE93D740A0642EEFE7A3 /* Pods-EGembaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EAB50D1720EF94E60085B133 = {
 			isa = PBXGroup;
 			children = (
 				EAB50D2220EF94E60085B133 /* EGemba */,
 				EAB50D3B20EF94E90085B133 /* EGembaTests */,
 				EAB50D2120EF94E60085B133 /* Products */,
+				E51C8A0F9CCDC903A57C1E48 /* Pods */,
+				AED8B79038A3B07D8603FCDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAB50D4120EF94E90085B133 /* Build configuration list for PBXNativeTarget "EGemba" */;
 			buildPhases = (
+				90817DC5AC39410E20AAF6CE /* [CP] Check Pods Manifest.lock */,
 				EAB50D1C20EF94E60085B133 /* Sources */,
 				EAB50D1D20EF94E60085B133 /* Frameworks */,
 				EAB50D1E20EF94E60085B133 /* Resources */,
@@ -127,6 +160,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAB50D4420EF94E90085B133 /* Build configuration list for PBXNativeTarget "EGembaTests" */;
 			buildPhases = (
+				0829CD325174EA5155FA2130 /* [CP] Check Pods Manifest.lock */,
 				EAB50D3420EF94E90085B133 /* Sources */,
 				EAB50D3520EF94E90085B133 /* Frameworks */,
 				EAB50D3620EF94E90085B133 /* Resources */,
@@ -197,6 +231,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0829CD325174EA5155FA2130 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EGembaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90817DC5AC39410E20AAF6CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EGemba-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EAB50D1C20EF94E60085B133 /* Sources */ = {
@@ -359,6 +432,7 @@
 		};
 		EAB50D4220EF94E90085B133 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F495D3D889E076FD6274970 /* Pods-EGemba.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +449,7 @@
 		};
 		EAB50D4320EF94E90085B133 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FB157A5B26FB5E7B49D0FD /* Pods-EGemba.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -391,6 +466,7 @@
 		};
 		EAB50D4520EF94E90085B133 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31939D83DF092A6B48889FEE /* Pods-EGembaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -409,6 +485,7 @@
 		};
 		EAB50D4620EF94E90085B133 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C35CE93D740A0642EEFE7A3 /* Pods-EGembaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

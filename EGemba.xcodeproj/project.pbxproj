@@ -16,6 +16,7 @@
 		EAB50D3020EF94E80085B133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB50D2E20EF94E80085B133 /* LaunchScreen.storyboard */; };
 		EAB50D3320EF94E90085B133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB50D3220EF94E90085B133 /* main.m */; };
 		EAB50D3D20EF94E90085B133 /* EGembaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB50D3C20EF94E90085B133 /* EGembaTests.m */; };
+		EAB50D4A20EF985C0085B133 /* EGBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB50D4920EF985C0085B133 /* EGBNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		EAB50D3820EF94E90085B133 /* EGembaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGembaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB50D3C20EF94E90085B133 /* EGembaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGembaTests.m; sourceTree = "<group>"; };
 		EAB50D3E20EF94E90085B133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB50D4820EF985C0085B133 /* EGBNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGBNetworking.h; sourceTree = "<group>"; };
+		EAB50D4920EF985C0085B133 /* EGBNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGBNetworking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 		EAB50D2220EF94E60085B133 /* EGemba */ = {
 			isa = PBXGroup;
 			children = (
+				EAB50D4720EF98400085B133 /* Engine */,
 				EAB50D2320EF94E60085B133 /* AppDelegate.h */,
 				EAB50D2420EF94E60085B133 /* AppDelegate.m */,
 				EAB50D2620EF94E60085B133 /* ViewController.h */,
@@ -135,6 +139,15 @@
 			path = EGembaTests;
 			sourceTree = "<group>";
 		};
+		EAB50D4720EF98400085B133 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				EAB50D4820EF985C0085B133 /* EGBNetworking.h */,
+				EAB50D4920EF985C0085B133 /* EGBNetworking.m */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +159,7 @@
 				EAB50D1C20EF94E60085B133 /* Sources */,
 				EAB50D1D20EF94E60085B133 /* Frameworks */,
 				EAB50D1E20EF94E60085B133 /* Resources */,
+				7040ADD2BC0C0B4D484AC40D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +265,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7040ADD2BC0C0B4D484AC40D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EGemba/Pods-EGemba-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RETableViewManager/RETableViewManager.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RETableViewManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGemba/Pods-EGemba-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		90817DC5AC39410E20AAF6CE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB50D4A20EF985C0085B133 /* EGBNetworking.m in Sources */,
 				EAB50D2820EF94E60085B133 /* ViewController.m in Sources */,
 				EAB50D3320EF94E90085B133 /* main.m in Sources */,
 				EAB50D2520EF94E60085B133 /* AppDelegate.m in Sources */,

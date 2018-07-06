@@ -1,3 +1,66 @@
-PODFILE CHECKSUM: 218e47cf1b05dbfe695400bd014b97f0fbcbb18b
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - EAIntroView (2.12.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+  - Masonry (1.1.0)
+  - PKRevealController (2.0.6)
+  - REFormattedNumberField (1.1.6)
+  - RETableViewManager (1.7):
+    - REFormattedNumberField (~> 1.1.5)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+  - SVProgressHUD (2.2.5)
+  - TPKeyboardAvoiding (1.3.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - EAIntroView
+  - Masonry
+  - PKRevealController
+  - RETableViewManager
+  - SVProgressHUD
+  - TPKeyboardAvoiding
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - EAIntroView
+    - EARestrictedScrollView
+    - Masonry
+    - PKRevealController
+    - REFormattedNumberField
+    - RETableViewManager
+    - REValidation
+    - SVProgressHUD
+    - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  EAIntroView: 249559079ddfdbe80e5bcb755c04c3b964b2ac27
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PKRevealController: ffb45a16f5a5032ad90a3d16e5cbb0d8e035bd58
+  REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
+  RETableViewManager: 0f24d796c42c0890d38c79cc9aeb3871e186726e
+  REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TPKeyboardAvoiding: cb69d5ddbe90ce0170e4bc2db1e5e41d4a3ad9a4
+
+PODFILE CHECKSUM: e4cff475c0e48029c2176a21e5ccea5583b0386d
 
 COCOAPODS: 1.5.3

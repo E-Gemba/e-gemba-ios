@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAB50D2520EF94E60085B133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB50D2420EF94E60085B133 /* AppDelegate.m */; };
+		EAB50D2820EF94E60085B133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB50D2720EF94E60085B133 /* ViewController.m */; };
+		EAB50D2B20EF94E60085B133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB50D2920EF94E60085B133 /* Main.storyboard */; };
+		EAB50D2D20EF94E80085B133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB50D2C20EF94E80085B133 /* Assets.xcassets */; };
+		EAB50D3020EF94E80085B133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB50D2E20EF94E80085B133 /* LaunchScreen.storyboard */; };
+		EAB50D3320EF94E90085B133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB50D3220EF94E90085B133 /* main.m */; };
+		EAB50D3D20EF94E90085B133 /* EGembaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB50D3C20EF94E90085B133 /* EGembaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAB50D3920EF94E90085B133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB50D1820EF94E60085B133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB50D1F20EF94E60085B133;
+			remoteInfo = EGemba;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAB50D2020EF94E60085B133 /* EGemba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGemba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB50D2320EF94E60085B133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAB50D2420EF94E60085B133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAB50D2620EF94E60085B133 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAB50D2720EF94E60085B133 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAB50D2A20EF94E60085B133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB50D2C20EF94E80085B133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB50D2F20EF94E80085B133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAB50D3120EF94E80085B133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB50D3220EF94E90085B133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAB50D3820EF94E90085B133 /* EGembaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGembaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB50D3C20EF94E90085B133 /* EGembaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGembaTests.m; sourceTree = "<group>"; };
+		EAB50D3E20EF94E90085B133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB50D1D20EF94E60085B133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB50D3520EF94E90085B133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB50D1720EF94E60085B133 = {
+			isa = PBXGroup;
+			children = (
+				EAB50D2220EF94E60085B133 /* EGemba */,
+				EAB50D3B20EF94E90085B133 /* EGembaTests */,
+				EAB50D2120EF94E60085B133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB50D2120EF94E60085B133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB50D2020EF94E60085B133 /* EGemba.app */,
+				EAB50D3820EF94E90085B133 /* EGembaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB50D2220EF94E60085B133 /* EGemba */ = {
+			isa = PBXGroup;
+			children = (
+				EAB50D2320EF94E60085B133 /* AppDelegate.h */,
+				EAB50D2420EF94E60085B133 /* AppDelegate.m */,
+				EAB50D2620EF94E60085B133 /* ViewController.h */,
+				EAB50D2720EF94E60085B133 /* ViewController.m */,
+				EAB50D2920EF94E60085B133 /* Main.storyboard */,
+				EAB50D2C20EF94E80085B133 /* Assets.xcassets */,
+				EAB50D2E20EF94E80085B133 /* LaunchScreen.storyboard */,
+				EAB50D3120EF94E80085B133 /* Info.plist */,
+				EAB50D3220EF94E90085B133 /* main.m */,
+			);
+			path = EGemba;
+			sourceTree = "<group>";
+		};
+		EAB50D3B20EF94E90085B133 /* EGembaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB50D3C20EF94E90085B133 /* EGembaTests.m */,
+				EAB50D3E20EF94E90085B133 /* Info.plist */,
+			);
+			path = EGembaTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB50D1F20EF94E60085B133 /* EGemba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB50D4120EF94E90085B133 /* Build configuration list for PBXNativeTarget "EGemba" */;
+			buildPhases = (
+				EAB50D1C20EF94E60085B133 /* Sources */,
+				EAB50D1D20EF94E60085B133 /* Frameworks */,
+				EAB50D1E20EF94E60085B133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EGemba;
+			productName = EGemba;
+			productReference = EAB50D2020EF94E60085B133 /* EGemba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAB50D3720EF94E90085B133 /* EGembaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB50D4420EF94E90085B133 /* Build configuration list for PBXNativeTarget "EGembaTests" */;
+			buildPhases = (
+				EAB50D3420EF94E90085B133 /* Sources */,
+				EAB50D3520EF94E90085B133 /* Frameworks */,
+				EAB50D3620EF94E90085B133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB50D3A20EF94E90085B133 /* PBXTargetDependency */,
+			);
+			name = EGembaTests;
+			productName = EGembaTests;
+			productReference = EAB50D3820EF94E90085B133 /* EGembaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB50D1820EF94E60085B133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = egemba;
+				TargetAttributes = {
+					EAB50D1F20EF94E60085B133 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					EAB50D3720EF94E90085B133 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EAB50D1F20EF94E60085B133;
+					};
+				};
+			};
+			buildConfigurationList = EAB50D1B20EF94E60085B133 /* Build configuration list for PBXProject "EGemba" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB50D1720EF94E60085B133;
+			productRefGroup = EAB50D2120EF94E60085B133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB50D1F20EF94E60085B133 /* EGemba */,
+				EAB50D3720EF94E90085B133 /* EGembaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB50D1E20EF94E60085B133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB50D3020EF94E80085B133 /* LaunchScreen.storyboard in Resources */,
+				EAB50D2D20EF94E80085B133 /* Assets.xcassets in Resources */,
+				EAB50D2B20EF94E60085B133 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB50D3620EF94E90085B133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB50D1C20EF94E60085B133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB50D2820EF94E60085B133 /* ViewController.m in Sources */,
+				EAB50D3320EF94E90085B133 /* main.m in Sources */,
+				EAB50D2520EF94E60085B133 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB50D3420EF94E90085B133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB50D3D20EF94E90085B133 /* EGembaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAB50D3A20EF94E90085B133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB50D1F20EF94E60085B133 /* EGemba */;
+			targetProxy = EAB50D3920EF94E90085B133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAB50D2920EF94E60085B133 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB50D2A20EF94E60085B133 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB50D2E20EF94E80085B133 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB50D2F20EF94E80085B133 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB50D3F20EF94E90085B133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAB50D4020EF94E90085B133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB50D4220EF94E90085B133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EGemba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.egemba.EGemba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAB50D4320EF94E90085B133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EGemba/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.egemba.EGemba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAB50D4520EF94E90085B133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EGembaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.egemba.EGembaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EGemba.app/EGemba";
+			};
+			name = Debug;
+		};
+		EAB50D4620EF94E90085B133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EGembaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.egemba.EGembaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EGemba.app/EGemba";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB50D1B20EF94E60085B133 /* Build configuration list for PBXProject "EGemba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB50D3F20EF94E90085B133 /* Debug */,
+				EAB50D4020EF94E90085B133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB50D4120EF94E90085B133 /* Build configuration list for PBXNativeTarget "EGemba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB50D4220EF94E90085B133 /* Debug */,
+				EAB50D4320EF94E90085B133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB50D4420EF94E90085B133 /* Build configuration list for PBXNativeTarget "EGembaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB50D4520EF94E90085B133 /* Debug */,
+				EAB50D4620EF94E90085B133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB50D1820EF94E60085B133 /* Project object */;
+}

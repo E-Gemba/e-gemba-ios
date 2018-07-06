@@ -93,6 +93,64 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EA2F56AB20EFB7D800CCA38D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA2F56AC20EFB80300CCA38D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA2F56B220EFB89000CCA38D /* CollectionViewCells */,
+				EA2F56B120EFB88300CCA38D /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA2F56AD20EFB81100CCA38D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA2F56AE20EFB81F00CCA38D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EA2F56AF20EFB85300CCA38D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EA2F56B020EFB86D00CCA38D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EA2F56B120EFB88300CCA38D /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		EA2F56B220EFB89000CCA38D /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
 		EAB50D1720EF94E60085B133 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +174,12 @@
 		EAB50D2220EF94E60085B133 /* EGemba */ = {
 			isa = PBXGroup;
 			children = (
+				EA2F56B020EFB86D00CCA38D /* Categories */,
+				EA2F56AF20EFB85300CCA38D /* Helper */,
+				EA2F56AE20EFB81F00CCA38D /* Services */,
+				EA2F56AD20EFB81100CCA38D /* Models */,
+				EA2F56AC20EFB80300CCA38D /* Views */,
+				EA2F56AB20EFB7D800CCA38D /* ViewControllers */,
 				EAB50D4720EF98400085B133 /* Engine */,
 				EAB50D2320EF94E60085B133 /* AppDelegate.h */,
 				EAB50D2420EF94E60085B133 /* AppDelegate.m */,

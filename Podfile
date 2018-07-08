@@ -13,6 +13,7 @@ target 'EGemba' do
   pod 'Masonry'
   pod 'EAIntroView'
   pod 'TPKeyboardAvoiding'
+  pod 'JVFloatLabeledTextField'
   
   target 'EGembaTests' do
     inherit! :search_paths

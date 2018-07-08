@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		61DB0FBE0F71B417F96858DC /* libPods-EGemba.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8407AC4FA870BA8E96DDD3 /* libPods-EGemba.a */; };
 		C28E71256A81352502ABCA62 /* libPods-EGembaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 665D34B6BD5851E6FB51A1FB /* libPods-EGembaTests.a */; };
+		EA618F6420F1B5C0002DDBA4 /* EGBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA618F6220F1B5C0002DDBA4 /* EGBLoginViewController.m */; };
+		EA618F6520F1B5C0002DDBA4 /* EGBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA618F6320F1B5C0002DDBA4 /* EGBLoginViewController.xib */; };
+		EA618F6C20F1B85D002DDBA4 /* UITextField+Underline.m in Sources */ = {isa = PBXBuildFile; fileRef = EA618F6B20F1B85D002DDBA4 /* UITextField+Underline.m */; };
 		EAB50D2520EF94E60085B133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB50D2420EF94E60085B133 /* AppDelegate.m */; };
 		EAB50D2820EF94E60085B133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB50D2720EF94E60085B133 /* ViewController.m */; };
 		EAB50D2B20EF94E60085B133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB50D2920EF94E60085B133 /* Main.storyboard */; };
@@ -36,6 +39,11 @@
 		5C35CE93D740A0642EEFE7A3 /* Pods-EGembaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGembaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EGembaTests/Pods-EGembaTests.release.xcconfig"; sourceTree = "<group>"; };
 		665D34B6BD5851E6FB51A1FB /* libPods-EGembaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EGembaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FB157A5B26FB5E7B49D0FD /* Pods-EGemba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGemba.release.xcconfig"; path = "Pods/Target Support Files/Pods-EGemba/Pods-EGemba.release.xcconfig"; sourceTree = "<group>"; };
+		EA618F6120F1B5C0002DDBA4 /* EGBLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGBLoginViewController.h; sourceTree = "<group>"; };
+		EA618F6220F1B5C0002DDBA4 /* EGBLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGBLoginViewController.m; sourceTree = "<group>"; };
+		EA618F6320F1B5C0002DDBA4 /* EGBLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EGBLoginViewController.xib; sourceTree = "<group>"; };
+		EA618F6A20F1B85D002DDBA4 /* UITextField+Underline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Underline.h"; sourceTree = "<group>"; };
+		EA618F6B20F1B85D002DDBA4 /* UITextField+Underline.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Underline.m"; sourceTree = "<group>"; };
 		EAB50D2020EF94E60085B133 /* EGemba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGemba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB50D2320EF94E60085B133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EAB50D2420EF94E60085B133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +104,7 @@
 		EA2F56AB20EFB7D800CCA38D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EA618F6020F1B58B002DDBA4 /* Login */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -103,6 +112,7 @@
 		EA2F56AC20EFB80300CCA38D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EA618F6620F1B766002DDBA4 /* TextFields */,
 				EA2F56B220EFB89000CCA38D /* CollectionViewCells */,
 				EA2F56B120EFB88300CCA38D /* TableViewCells */,
 			);
@@ -133,6 +143,8 @@
 		EA2F56B020EFB86D00CCA38D /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				EA618F6A20F1B85D002DDBA4 /* UITextField+Underline.h */,
+				EA618F6B20F1B85D002DDBA4 /* UITextField+Underline.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -149,6 +161,23 @@
 			children = (
 			);
 			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		EA618F6020F1B58B002DDBA4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EA618F6120F1B5C0002DDBA4 /* EGBLoginViewController.h */,
+				EA618F6220F1B5C0002DDBA4 /* EGBLoginViewController.m */,
+				EA618F6320F1B5C0002DDBA4 /* EGBLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EA618F6620F1B766002DDBA4 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 		EAB50D1720EF94E60085B133 = {
@@ -296,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAB50D3020EF94E80085B133 /* LaunchScreen.storyboard in Resources */,
+				EA618F6520F1B5C0002DDBA4 /* EGBLoginViewController.xib in Resources */,
 				EAB50D2D20EF94E80085B133 /* Assets.xcassets in Resources */,
 				EAB50D2B20EF94E60085B133 /* Main.storyboard in Resources */,
 			);
@@ -376,7 +406,9 @@
 			files = (
 				EAB50D4A20EF985C0085B133 /* EGBNetworking.m in Sources */,
 				EAB50D2820EF94E60085B133 /* ViewController.m in Sources */,
+				EA618F6C20F1B85D002DDBA4 /* UITextField+Underline.m in Sources */,
 				EAB50D3320EF94E90085B133 /* main.m in Sources */,
+				EA618F6420F1B5C0002DDBA4 /* EGBLoginViewController.m in Sources */,
 				EAB50D2520EF94E60085B133 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

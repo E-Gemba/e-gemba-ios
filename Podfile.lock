@@ -17,6 +17,7 @@ PODS:
   - EAIntroView (2.12.0):
     - EARestrictedScrollView (~> 1.1.0)
   - EARestrictedScrollView (1.1.0)
+  - JVFloatLabeledTextField (1.2.1)
   - Masonry (1.1.0)
   - PKRevealController (2.0.6)
   - REFormattedNumberField (1.1.6)
@@ -30,6 +31,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - EAIntroView
+  - JVFloatLabeledTextField
   - Masonry
   - PKRevealController
   - RETableViewManager
@@ -41,6 +43,7 @@ SPEC REPOS:
     - AFNetworking
     - EAIntroView
     - EARestrictedScrollView
+    - JVFloatLabeledTextField
     - Masonry
     - PKRevealController
     - REFormattedNumberField
@@ -53,6 +56,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   EAIntroView: 249559079ddfdbe80e5bcb755c04c3b964b2ac27
   EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  JVFloatLabeledTextField: cfc44e3c4d493b2ed92ede8035e8e89c2912ba64
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   PKRevealController: ffb45a16f5a5032ad90a3d16e5cbb0d8e035bd58
   REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
@@ -61,6 +65,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TPKeyboardAvoiding: cb69d5ddbe90ce0170e4bc2db1e5e41d4a3ad9a4
 
-PODFILE CHECKSUM: e4cff475c0e48029c2176a21e5ccea5583b0386d
+PODFILE CHECKSUM: 925a76b431818280d3cadc36bab37a00d54fbe96
 
 COCOAPODS: 1.5.3
